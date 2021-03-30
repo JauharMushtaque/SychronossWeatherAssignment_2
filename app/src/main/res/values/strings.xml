@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SynossWeatherAssign</string>
+    <string name="city_name">CityName</string>
+    <string name="temperature">Temperature</string>
+    <string name="temperature_feels_like">Temp Feels Like</string>
+    <string name="temperature_min_label">Min Temp</string>
+    <string name="temperature_max_label">Max Temp</string>
+    <string name="pressure_label">Pressure</string>
+    <string name="humidity_label">Humidity</string>
+    <string name="visibility_label">Visibility</string>
+    <string name="wind_speed_label">Wind Speed</string>
+    <string name="textview">TextView</string>
+</resources>
