@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SynossWeatherAssign</string>
+    <string name="app_name">Bengaluru</string>
     <string name="city_name">CityName</string>
     <string name="temperature">Temperature</string>
     <string name="temperature_feels_like">Temp Feels Like</string>

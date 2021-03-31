@@ -16,4 +16,9 @@ object  Utility {
             networkInfo?.isConnected ?: false
         } else false
     }
+
+    fun convertToCelcius(temp: String):String{
+        val test = temp.toFloat()-273.15
+        return "%.2f".format(test)
+    }
 }

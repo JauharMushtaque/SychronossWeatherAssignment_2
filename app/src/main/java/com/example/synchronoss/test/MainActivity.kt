@@ -71,10 +71,10 @@ class MainActivity : AppCompatActivity() {
 
         cityName.text = updatedWeatherResponse.city_name
 //        temperature.text = updatedWeatherResponse.temp.toString()
-        temperature.text = updatedWeatherResponse.temp.toString()+"\u00B0"
-        temperature_feels_like.text = updatedWeatherResponse.feels_like.toString()+"\u00B0"
-        temperature_max.text = updatedWeatherResponse.temp_max.toString()+"\u00B0"
-        temperature_min.text = updatedWeatherResponse.temp_min.toString()+"\u00B0"
+        temperature.text = Utility.convertToCelcius(updatedWeatherResponse.temp.toString())+"\u00B0"
+        temperature_feels_like.text = Utility.convertToCelcius(updatedWeatherResponse.feels_like.toString())+"\u00B0"
+        temperature_max.text = Utility.convertToCelcius(updatedWeatherResponse.temp_max.toString())+"\u00B0"
+        temperature_min.text = Utility.convertToCelcius(updatedWeatherResponse.temp_min.toString())+"\u00B0"
         pressure.text = updatedWeatherResponse.pressure.toString()
         humidity.text = updatedWeatherResponse.humidity.toString()
         visibility.text = updatedWeatherResponse.visibility.toString()
