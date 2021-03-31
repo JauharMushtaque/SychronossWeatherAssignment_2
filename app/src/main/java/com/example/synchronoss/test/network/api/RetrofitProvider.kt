@@ -1,10 +1,11 @@
 package com.example.synchronoss.test.network.api
 
+import com.example.synchronoss.test.utils.Utility.BASE_URL
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitProvider {
-    const val BASE_URL = "https://api.openweathermap.org/"
+//    const val BASE_URL = "https://api.openweathermap.org/"
 
     fun getRetrofitService(): RetrofitService {
         val retrofit = Retrofit.Builder()

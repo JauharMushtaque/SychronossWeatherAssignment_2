@@ -36,7 +36,7 @@ class WeatherViewModel (application: Application) : AndroidViewModel(application
     /**
      * getWeather for the every 2 hours
      */
-    fun getWeatherPeriodically() {
+    fun getWeatherEveryTwoHours() {
         disposable = Observable.interval(
             0, 2,
             TimeUnit.HOURS
@@ -49,7 +49,6 @@ class WeatherViewModel (application: Application) : AndroidViewModel(application
 
     /**
      * Method to load the weather data
-     * @param WeatherPortalDB - dbInstance
      */
     fun getWeatherFromDb(weatherDatabase: WeatherDatabase) {
         GlobalScope.launch {

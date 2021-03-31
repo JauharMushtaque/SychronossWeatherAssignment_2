@@ -12,7 +12,7 @@ import kotlinx.coroutines.launch
 
 private const val TAG: String = "WeatherAPI"
 
-fun saveWeatherAPIResponse(
+fun saveWeatherDataInDatabase(
     weatherDB: WeatherDatabase,
     weatherInfo: Weather_Base_Pojo
 ): Boolean {
