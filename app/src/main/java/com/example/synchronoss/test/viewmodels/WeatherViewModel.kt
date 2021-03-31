@@ -45,8 +45,6 @@ class WeatherViewModel (application: Application) : AndroidViewModel(application
             .subscribe({ this.getWeatherDailyData() }, { this.onError() })
     }
 
-
-
     /**
      * Method to load the weather data
      */
